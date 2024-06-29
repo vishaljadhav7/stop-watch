@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+h2{
+    text-align: center;
+}
+
+.display-time{
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+/*/ 2) changing the disabled property of resetbtn that is making it to true (disabling it) but at the beginning the reset btn was already disabled then on starting the timer why are we again disabling it bcoz when we have paused the timer in this case when we've paused/stop resetbtn would've been enabled  */
